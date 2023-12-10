@@ -101,3 +101,6 @@ VueRouter.install = function (v) {
 };
 
 export default VueRouter;
+
+
+// https://segmentfault.com/a/1190000042545774#item-7
