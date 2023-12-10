@@ -36,7 +36,7 @@ class VueRouter {
       window.addEventListener("load", () => {
         this.history.current = location.pathname;
       });
-      window.addEventListener("hashchange", () => {
+      window.addEventListener("popState", () => {
         this.history.current = location.pathname;
       });
     }
