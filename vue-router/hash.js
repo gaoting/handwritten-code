@@ -1,5 +1,4 @@
 window.onload = function () {
-  var hash = window.location.hash
 
   window.addEventListener('hashchange',function () {
     // 获取新的hash部分  
